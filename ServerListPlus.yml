@@ -1,0 +1,486 @@
+#      _____                     __    _     _   _____ _
+#     |   __|___ ___ _ _ ___ ___|  |  |_|___| |_|  _  | |_ _ ___
+#     |__   | -_|  _| | | -_|  _|  |__| |_ -|  _|   __| | | |_ -|
+#     |_____|___|_|  \_/|___|_| |_____|_|___|_| |__|  |_|___|___|
+# 
+# ServerListPlus v3.4.8 - http://git.io/slp
+
+# More information is available in the Wiki: http://git.io/slp-wiki
+
+
+# This is the section where you can customize your server status ping!
+#  - Default is the section for the status used when the player name is unknown.
+#    Personalized is used if the client has already joined the server once.
+#    Use %player% as placeholder for the player's name.
+# 
+# Features:
+#  - Description (MotD): A short status message for your server, max. 2 lines.
+#  - Players:
+#    - Hover: The player hover message that is displayed if you hover the player count.
+#    - Slots: Custom player slot formatting, see http://git.io/slp-slots
+#  - Favicon:
+#    - Use multiple server icons or the player's head as favicon, see http://git.io/oMhJlg
+#    - Possible favicon sources: Files, Folders, URLs, Heads, Helms, Encoded
+# 
+#  More features are explained in the Wiki: http://git.io/slp-config
+# 
+# Usage:
+#  - Add multiple entries for random messages.
+#  - Save the file with valid UTF-8 encoding for special characters.
+#  - Available placeholders:
+#    - Player name: %player%
+#    - Player count: %online%, %max%, %online@server% %online@world%
+#    - Random online player name: %random_player%
+--- !Status
+Default:
+  Description:
+  - |-
+        &6mine bitcoins in your dorm!
+          &bsushituesday.club
+  - |-
+        &6that weed smell
+          &bsushituesday.club
+  - |-
+        &6downloading all of south park on BereaGuest
+          &bsushituesday.club
+  - |-
+        &6more uptime than BereaSecure
+          &bsushituesday.club
+  - |-
+        &6employing children since 2011
+          &bsushituesday.club
+  - |-
+        &6boycott BC&T
+          &bsushituesday.club
+  - |-
+        &6stop appropriating my culture!
+          &bsushituesday.club
+  - |-
+        &6I'M PICKLE RIIIIIIIIICK
+          &bsushituesday.club
+  - |-
+        &6pair programming should be boy/girl right?
+          &bsushituesday.club
+  - |-
+        &6do you even vape?
+          &bsushituesday.club
+  - |-
+        &6vomiting over the rail of a gazebo
+          &bsushituesday.club
+  - |-
+        &6climing the sawdust silo while stoned
+          &bsushituesday.club
+  - |-
+        &6popcorn lung
+          &bsushituesday.club
+  - |-
+        &6less buggy than david's prius
+          &bsushituesday.club
+  - |-
+        &6go live in a truck!
+          &bsushituesday.club
+  - |-
+        &8Pinging...
+          &bsushituesday.club
+  - |-
+        &6I'M PICKLE RIIIIIIIIICK
+          &bsushituesday.club
+  - |-
+        &6Ben Quesada, Bro of Bros
+          &bsushituesday.club
+  - |-
+        &6 Need jungle wood?
+          &bsushituesday.club
+  - |-
+        &6 The Lord wants his tuna chow.
+          &bsushituesday.club
+  - |-
+        &6 Adventure Time!
+          &bsushituesday.club
+  - |-
+        &6 Creeper explosions disabled!
+          &bsushituesday.club
+  - |-
+        &6 Who needs /tpa when you have roads?
+          &bsushituesday.club
+  - |-
+        &6 Thirst plugin coming soon!
+          &bsushituesday.club
+  - |-
+        &6 Today only, creative mode!
+          &bsushituesday.club
+  - |-
+        &6 Finished your homework?
+          &bsushituesday.club
+  - |-
+        &6 Floating trees are early signs of autism.
+          &bsushituesday.club
+  - |-
+        &6 PSA: r/trees is not about trees
+              &bsushituesday.club
+  - |-
+        &6 SMOKE WEED &mEVERY' DAY&r &6OCCASIONALLY! 
+          &bsushituesday.club
+  - |-
+        &6 Shhhh. The server url is a secret.
+          &bsushituesday.club
+  - |-
+        &6 The Official MC Server of &cKhin's Sushi
+          &bsushituesday.club
+  - |-
+        &6 Powered by Monster Energy & Diet MTN DEW
+          &bsushituesday.club
+  - |-
+        &6 Donate Saplings to 2b2t.org!
+          &bsushituesday.club
+  - |-
+        &6 100% Caucasian
+          &bsushituesday.club
+  - |-
+        &6 More turnt than Alex on Homecomming!
+          &bsushituesday.club
+  - |-
+        &6 <insert random inside joke>
+          &bsushituesday.club
+  - |-
+        &6 BTC up 1,000,00000,000% since 2009
+          &bsushituesday.club
+  - |-
+        &6 Dogecoin
+          &bsushituesday.club
+  - |-
+        &6 penis
+          &bsushituesday.club
+  - |-
+        &6 We have a shitty website
+          &bsushituesday.club
+  - |-
+        &6 hiring developers!
+          &bsushituesday.club
+  - |-
+        &6 make our site better: GitHub:&b leav.in/p
+          &bsushituesday.club
+  - |-
+        &6 Here's a joke: Public Safety
+          &bsushituesday.club
+  - |-
+        &6 &cNow owned by Comcast©
+          &bsushituesday.club
+  - |-
+        &6 RIP net neutrality 
+          &bsushituesday.club
+  - |-
+        &6 Ms. Pat watches you masturbate
+          &bsushituesday.club
+  - |-
+        &3Riverbend&6 founded Sept 2017
+          &bsushituesday.club
+  - |-
+        &6 hey kid, want to print for free?
+          &bsushituesday.club
+  - |-
+        &6 co-ordinates are currency
+          &bsushituesday.club
+  - |-
+        &6 hiking the pinnacles while on acid
+          &bsushituesday.club
+  - |-
+        &6 Now serving alcohol!
+          &bsushituesday.club
+  - |-
+        &6 This server costs me $5/mo. Fuckin appreciate that!
+          &bsushituesday.club
+  - |-
+        &6 Calm your tits.
+          &bsushituesday.club
+  - |-
+        &6 outside a gazeebo, face first, 4 am
+          &bsushituesday.club
+  - |-
+        &6 start a conga line
+          &bsushituesday.club
+  - |-
+        &6 Buddah won't stop snorting coke
+          &bsushituesday.club
+  - |-
+        &6 Invest in &fLitecoin
+          &bsushituesday.club
+  - |-
+        &6 BTC: 1EQmDmVohYeJkqoxmy7epaVuSNnxgB9L42
+          &bsushituesday.club
+  - |-
+        &6 Sorry for lag, server mining &4&cMonero
+          &bsushituesday.club
+  - |-
+        &6 Endorsed by &3&1&9Berea Collge
+          &bsushituesday.club
+  - |-
+        &6 I'm not gay, but $20 is $20
+          &bsushituesday.club
+  - |-
+        &6 send nudes
+          &bsushituesday.club
+  - |-
+        &6 I wish the holocaust actually happened
+          &bsushituesday.club 
+  - |-
+        &6 Digital Kentucky!
+          &bsushituesday.club
+  - |-
+        &6 Richard Wiener
+          &bsushituesday.club
+  - |-
+        &6 No offensive statements!
+          &bsushituesday.club
+
+  - |-
+        &6 No offensive statements!
+          &bsushituesday.club
+
+  Players:
+    Hover:
+    - |-
+      &aWelcome to &lA Minecraft Server&a!
+      &aCurrently &e&l%online% &aplayers are playing on our server!
+Personalized:
+  Description:
+  - |-
+        &6mine bitcoins in your dorm!
+          &bsushituesday.club
+  - |-
+        &6that weed smell
+          &bsushituesday.club
+  - |-
+        &6downloading all of south park on BereaGuest
+          &bsushituesday.club
+  - |-
+        &6more uptime than BereaSecure
+          &bsushituesday.club
+  - |-
+        &6employing children since 2011
+          &bsushituesday.club
+  - |-
+        &6boycott BC&T
+          &bsushituesday.club
+  - |-
+        &6stop appropriating my culture!
+          &bsushituesday.club
+  - |-
+        &6I'M PICKLE RIIIIIIIIICK
+          &bsushituesday.club
+  - |-
+        &6pair programming should be boy/girl right?
+          &bsushituesday.club
+  - |-
+        &6do you even vape?
+          &bsushituesday.club
+  - |-
+        &6vomiting over the rail of a gazebo
+          &bsushituesday.club
+  - |-
+        &6climing the sawdust silo while stoned
+          &bsushituesday.club
+  - |-
+        &6popcorn lung
+          &bsushituesday.club
+  - |-
+        &6less buggy than david's prius
+          &bsushituesday.club
+  - |-
+        &6go live in a truck!
+          &bsushituesday.club
+  - |-
+        &8Pinging...
+          &bsushituesday.club
+  - |-
+        &6I'M PICKLE RIIIIIIIIICK
+          &bsushituesday.club
+  - |-
+        &6Ben Quesada, Bro of Bros
+          &bsushituesday.club
+  - |-
+        &6 Need jungle wood?
+          &bsushituesday.club
+  - |-
+        &6 The Lord wants his tuna chow.
+          &bsushituesday.club
+  - |-
+        &6 Adventure Time!
+          &bsushituesday.club
+  - |-
+        &6 Creeper explosions disabled!
+          &bsushituesday.club
+  - |-
+        &6 Who needs /tpa when you have roads?
+          &bsushituesday.club
+  - |-
+        &6 Thirst plugin coming soon!
+          &bsushituesday.club
+  - |-
+        &6 Today only, creative mode!
+          &bsushituesday.club
+  - |-
+        &6 Finished your homework?
+          &bsushituesday.club
+  - |-
+        &6 Floating trees are early signs of autism.
+          &bsushituesday.club
+  - |-
+        &6 PSA: r/trees is not about trees
+              &bsushituesday.club
+  - |-
+        &6 SMOKE WEED &mEVERY' DAY&r &6OCCASIONALLY! 
+          &bsushituesday.club
+  - |-
+        &6 Shhhh. The server url is a secret.
+          &bsushituesday.club
+  - |-
+        &6 The Official MC Server of &cKhin's Sushi
+          &bsushituesday.club
+  - |-
+        &6 Powered by Monster Energy & Diet MTN DEW
+          &bsushituesday.club
+  - |-
+        &6 Donate Saplings to 2b2t.org!
+          &bsushituesday.club
+  - |-
+        &6 100% Caucasian
+          &bsushituesday.club
+  - |-
+        &6 More turnt than Alex on Homecomming!
+          &bsushituesday.club
+  - |-
+        &6 <insert random inside joke>
+          &bsushituesday.club
+  - |-
+        &6 BTC up 1,000,00000,000% since 2009
+          &bsushituesday.club
+  - |-
+        &6 Dogecoin
+          &bsushituesday.club
+  - |-
+        &6 penis
+          &bsushituesday.club
+  - |-
+        &6 We have a shitty website
+          &bsushituesday.club
+  - |-
+        &6 hiring developers!
+          &bsushituesday.club
+  - |-
+        &6 make our site better: GitHub:&b leav.in/p
+          &bsushituesday.club
+  - |-
+        &6 Here's a joke: Public Safety
+          &bsushituesday.club
+  - |-
+        &6 &cNow owned by Comcast©
+          &bsushituesday.club
+  - |-
+        &6 RIP net neutrality 
+          &bsushituesday.club
+  - |-
+        &6 Ms. Pat watches you masturbate
+          &bsushituesday.club
+  - |-
+        &3Riverbend&6 founded Sept 2017
+          &bsushituesday.club
+  - |-
+        &6 hey kid, want to print for free?
+          &bsushituesday.club
+  - |-
+        &6 co-ordinates are currency
+          &bsushituesday.club
+  - |-
+        &6 hiking the pinnacles while on acid
+          &bsushituesday.club
+  - |-
+        &6 Now serving alcohol!
+          &bsushituesday.club
+  - |-
+        &6 This server costs me $5/mo. Fuckin appreciate that!
+          &bsushituesday.club
+  - |-
+        &6 Calm your tits.
+          &bsushituesday.club
+  - |-
+        &6 outside a gazeebo, face first, 4 am
+          &bsushituesday.club
+  - |-
+        &6 start a conga line
+          &bsushituesday.club
+  - |-
+        &6 Buddah won't stop snorting coke
+          &bsushituesday.club
+  - |-
+        &6 Invest in &fLitecoin
+          &bsushituesday.club
+  - |-
+        &6 BTC: 1EQmDmVohYeJkqoxmy7epaVuSNnxgB9L42
+          &bsushituesday.club
+  - |-
+        &6 Sorry for lag, server mining &4&cMonero
+          &bsushituesday.club
+  - |-
+        &6 Endorsed by &3&1&9Berea Collge
+          &bsushituesday.club
+  - |-
+        &6 I'm not gay, but $20 is $20
+          &bsushituesday.club
+  - |-
+        &6 send nudes
+          &bsushituesday.club
+  - |-
+        &6 I wish the holocaust actually happened
+          &bsushituesday.club 
+  - |-
+        &6 Digital Kentucky!
+          &bsushituesday.club
+  - |-
+        &6 Richard Wiener
+          &bsushituesday.club
+  - |-
+        &6 No offensive statements!
+          &bsushituesday.club
+
+  - |-
+        &6 No offensive statements!
+          &bsushituesday.club
+  Players:
+    Hover:
+    - |-
+      &aWelcome back, &l%player%&a!
+      &aCurrently &e&l%online% &aplayers are playing on our server!
+
+# Stats: Enable/disable sending plugin statistics.
+# PlayerTracking: Enable/disable tracking of player names to their IP-Addresses.
+#   - Persistence can be disabled with the toggle in the Storage section.
+# Samples: Toggle using multiple player infos for the player hover message.
+#     May prevent the annoying ... and x more ... message for bigger servers
+#     DynamicPlayers is special and aligns the number with the number of
+#     random players used in placeholders.
+# Unknown: Placeholder replacement if the real value is unknown.
+# Favicon: Options for the creation / downloading of favicons:
+#  - RecursiveFolderSearch: Also search for favicons in sub directories.
+#  - SkinSource: The URL to get the Minecraft Skins from. (%s -> player name)
+#  - ResizeStrategy: The strategy used to resize too small or too big favicons.
+#      NONE (keep them as is, will probably fail), SCALE (scale them to the correct size)
+--- !Plugin
+Stats: true
+PlayerTracking:
+  Enabled: true
+  Storage: !JSONStorage
+    Enabled: true
+    SaveDelay: 5m
+Samples:
+  Multiple: false
+  DynamicPlayers: false
+Unknown:
+  PlayerName: player
+  PlayerCount: ???
+  Date: ???
+Favicon:
+  Timeout: 10s
+  RecursiveFolderSearch: false
+  ResizeStrategy: SCALE
+
