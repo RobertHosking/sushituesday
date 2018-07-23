@@ -1,7 +1,7 @@
 <?php
 
 
-   header( 'Location: http://leav.in/s' ) ;
+   header( 'Location: https://discord.gg/4zsQ79' ) ;
 ?>
 
 
